@@ -1,0 +1,46 @@
+.post-card {
+    width: 20vw;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1rem;
+    text-align: left;
+
+}
+
+.post-title {
+    font-size: 1rem;
+    color:rgb(54, 153, 153);
+    min-height: 3rem;
+}
+
+@media screen  and (max-width: 992px){
+    .post-card {
+        width: 40vw;
+    }
+    .post-title {
+        font-size: 1rem;
+        color:rgb(54, 153, 153);
+        min-height: 6rem;
+    }
+    
+}
+
+@media screen  and (max-width: 480px){
+    .post-card {
+        width: 75vw;
+    }
+    .post-title {
+        min-height: 2rem;
+    }
+}
+.post-no {
+    font-size: .7rem;
+}
+
+.user-id {
+    font-size: .7rem;
+    color:rgb(54, 153, 153);
+}
+
+.post-body {
+    font-size: 1rem;
+}
